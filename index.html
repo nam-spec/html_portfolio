@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <h1 class="fade_in_down"> 🌤️ Weather App</h1>
+            </header>
+            
+            <section class="search">
+                <input type="text" id="cityInput" placeholder="Enter city name">
+                <button id="searchBtn"> 🔍 Search</button>
+            </section>
+            <section id="weatherDisplay" class="weather"></section>
+        </div>
+
+        <div id="loading" class="hidden">
+            <div class="spinner"></div>
+        </div>
+
+        <footer>
+            <p>Designed with ❤️ by your Nam</p>
+        </footer>
+        
+        <script src="script.js"></script>
+
+       
+    </body>
+</html>
